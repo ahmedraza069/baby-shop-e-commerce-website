@@ -1,0 +1,869 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 1320px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/*==========Commmon Css End============*/
+
+
+/*===========================================
+===========Nab bar Top Part Start============
+=========================================*/
+#navbar_top .main {
+    width: 100%;
+    background-color: #EBF0F0;
+    padding: 14px 20px;
+}
+
+#navbar_top .main p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #252525;
+}
+
+#navbar_top .main p a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #252525;
+    margin-left: 10px;
+}
+
+/*===========================================
+===========Nab bar Top Part End============
+=========================================*/
+
+
+
+/*===========================================
+===========Nab bar menu Part Start============
+=========================================*/
+#navbar_main {
+    height: 135px;
+}
+
+#navbar_main .main ul {
+    margin-left: 30px;
+}
+
+#navbar_main .main img {
+    height: 80x;
+    width: 80px;
+    margin-left: 40px;
+}
+
+#navbar_main .rahul {
+    margin-left: 90px !important;
+}
+
+#navbar_main .main ul li {
+    margin-left: 30px;
+}
+
+#navbar_main .main ul li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1C1C1C;
+}
+
+#navbar_main .main .icon_logo i {
+    font-size: 25px;
+    margin-left: 10px;
+    color: #4D77DD;
+    padding-right: 10px;
+}
+
+/*===========================================
+===========Nab bar Part End============
+=========================================*/
+
+
+/*===========================================
+===========Nab bar Search Part Start============
+=========================================*/
+#search_bar .icon_bar {
+    height: 55px;
+    background-color: #4D77DD;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search_bar .icon_bar i {
+    margin-right: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+#search_bar .icon_bar p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#search_bar .search form {
+    height: 55px;
+}
+
+#search_bar .search button {
+    background-color: #4D77DD;
+    color: #fff;
+}
+
+#search_bar .write_part {
+    height: 55px;
+    margin-top: 27px;
+    margin-right: 10px;
+}
+
+#search_bar .write_part p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #252525;
+}
+
+/*===========================================
+===========Nab bar Search Part End============
+=========================================*/
+
+
+/*===========================================
+===========Banner Part Start============
+=========================================*/
+#banner {
+    margin-top: -15px;
+}
+
+#banner .main {
+    height: 572px;
+
+}
+
+#banner .list {
+    border: 1px solid #252525;
+    height: 572px;
+    border-radius: 5px;
+}
+
+#banner .list ul {
+    padding: 22px 2px;
+}
+
+#banner .list li {
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222222;
+}
+
+#banner .list i {
+    margin-right: 8px;
+}
+
+#banner .item {
+    background: url(./img/Banner.png) no-repeat center;
+    height: 572px;
+    padding: 156px 39px;
+}
+
+#banner .item h4 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #F76262;
+    margin-bottom: 7px;
+}
+
+#banner .item h1 {
+    width: 308px;
+    font-size: 44;
+    font-weight: 400;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+#banner .item h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #252525;
+    margin-bottom: 18px;
+}
+
+#banner .item button {
+    width: 109px;
+    height: 32px;
+    background-color: #F76262;
+    border: #F76262;
+    border-radius: 5px;
+}
+
+#banner .item button a {
+    color: #fff;
+}
+
+/*===========================================
+===========Banner Part End============
+=========================================*/
+
+
+
+/*===========================================
+===========satisfaction part End============
+=========================================*/
+#satisfiaction {
+    margin-top: 52px;
+}
+
+#satisfiaction .item {
+    width: 312px;
+    height: 116px;
+    padding: 34px 0;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+#satisfiaction .item h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+#satisfiaction .item p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+    text-align: center;
+}
+
+#satisfiaction .item i {
+    position: absolute;
+    font-size: 20px;
+    top: 37px;
+    left: 18px;
+    color: #4D77DD;
+}
+
+/*===========================================
+===========satisfaction part End============
+=========================================*/
+
+
+/*===========================================
+===========Extraordinary part End============
+=========================================*/
+#extraordinary {
+    margin-top: 50px;
+}
+
+#extraordinary .item {
+    height: 280px;
+    padding: 77px 35px;
+    background-image: url(./img/Rectangle\ 13.png);
+    border-radius: 5px;
+}
+
+#extraordinary .item h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+#extraordinary .item h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111111;
+    line-height: 34px;
+    margin-bottom: 31px;
+}
+
+#extraordinary .item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 30px;
+}
+
+#extraordinary .item_one {
+    height: 280px;
+    padding: 77px 35px;
+    background-image: url(./img/Rectangle\ 14.png);
+    border-radius: 5px;
+}
+
+#extraordinary .item_one h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+#extraordinary .item_one h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111111;
+    line-height: 34px;
+    margin-bottom: 31px;
+}
+
+#extraordinary .item_one p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 30px;
+}
+
+/*===========================================
+===========Extraordinary part End============
+=========================================*/
+
+/*===========================================
+===========Best_deals  part Start============
+=========================================*/
+#best_deals {
+    margin-top: 80px;
+}
+#best_deals .main {
+    display: flex;
+	justify-content:space-between;
+}
+#best_deals .main .cart{
+	flex-basis:18%;
+}
+#best_deals .main .cart img{
+	width:100%;
+}
+#best_deals h1 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #0A0A0A;
+    margin-bottom: 30px;
+}
+#best_deals .main .cart .icon_star {
+    color: #FFCD3C;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+#best_deals .main .cart p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 12px;
+}
+
+#best_deals .main .cart button {
+    width: 109px;
+    height: 32px;
+    background-color: #F76262;
+    border: #F76262;
+    border-radius: 5px;
+}
+
+#best_deals .main .cart button a {
+    color: #fff;
+}
+
+/*===========================================
+===========Best_deals  part End============
+=========================================*/
+
+
+
+
+/*===========================================
+===========Apple part End============
+=========================================*/
+#apple {
+    margin-top: 90px;
+}
+
+#apple .item {
+    height: 280px;
+    padding: 77px 35px;
+    background-image: url(./img/Rectangle\ 20.png);
+    border-radius: 5px;
+}
+
+#apple .item h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+#apple .item h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111111;
+    line-height: 34px;
+    margin-bottom: 31px;
+}
+
+#apple .item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 30px;
+}
+
+#apple .item_one {
+    height: 280px;
+    padding: 77px 35px;
+    background-image: url(./img/Rectangle\ 21.png);
+    border-radius: 5px;
+}
+
+#apple .item_one h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+#apple .item_one h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111111;
+    line-height: 34px;
+    margin-bottom: 31px;
+}
+
+#apple .item_one p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 30px;
+}
+
+/*===========================================
+===========Apple part End============
+=========================================*/
+
+/*===========================================
+===========Featured Products Start============
+=========================================*/
+#products {
+    margin-top: 80px;
+}
+
+#products .main {
+    display: flex;
+    justify-content: space-between;
+}
+#products .main .cart{
+	flex-basis:18%;
+}
+#products h1 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #0A0A0A;
+    margin-bottom: 30px;
+}
+#products .main .cart img{
+	width:100%;
+}
+#products .main .cart .icon_star {
+    color: #FFCD3C;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+#products .main .cart p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 12px;
+}
+
+#products .main .cart button {
+    width: 109px;
+    height: 32px;
+    background-color: #F76262;
+    border: #F76262;
+    border-radius: 5px;
+}
+
+#products .main .cart button a {
+    color: #fff;
+}
+
+/*===========================================
+===========Featured Products part End============
+=========================================*/
+
+
+/*===========================================
+===========Brand part Start============
+=========================================*/
+#brand {
+    margin-top: 90px;
+}
+
+#brand .item {
+    height: 280px;
+    padding: 77px 35px;
+    background-image: url(./img/Rectangle\ 22.png);
+    border-radius: 5px;
+}
+
+#brand .item h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+#brand .item h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111111;
+    line-height: 34px;
+    margin-bottom: 31px;
+}
+
+#brand .item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 30px;
+}
+
+#brand .item_one {
+    height: 280px;
+    padding: 77px 35px;
+    background-image: url(./img/Rectangle\ 23.png);
+    border-radius: 5px;
+}
+
+#brand .item_one h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+#brand .item_one h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111111;
+    line-height: 34px;
+    margin-bottom: 31px;
+}
+
+#brand .item_one p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 30px;
+}
+
+/*===========================================
+============Brand part End============
+=========================================*/
+
+
+
+/*===========================================
+============New Arrival part Start============
+=========================================*/
+#arrival {
+    margin-top: 80px;
+}
+
+#arrival .main {
+    display: flex;
+    justify-content: space-between;
+}
+#arrival .main .cart{
+	flex-basis:18%;
+}
+#arrival .main .cart img{
+	width:100%;
+}
+#arrival h1 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #0A0A0A;
+    margin-bottom: 30px;
+}
+#arrival .main .cart .icon_star {
+    color: #FFCD3C;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+#arrival .main .cart p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 12px;
+}
+
+#arrival .main .cart button {
+    width: 109px;
+    height: 32px;
+    background-color: #F76262;
+    border: #F76262;
+    border-radius: 5px;
+}
+
+#arrival .main .cart button a {
+    color: #fff;
+}
+
+/*===========================================
+============New Arrival part End============
+=========================================*/
+
+
+/*===========================================
+============Company logo part Start============
+=========================================*/
+#company {
+    margin-top: 87px;
+}
+
+#company .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#company .logo_icon_bar {
+    width: 245px;
+    height: 80px;
+}
+
+#company .logo_icon_bar img {
+    width: 100px;
+    height: 80px;
+    margin-left: 30%;
+}
+
+/*===========================================
+============Company logo part End============
+=========================================*/
+
+/*===========================================
+============Reality Glasses part Start============
+=========================================*/
+#last_part {
+    margin-top: 50px;
+}
+
+#last_part .item {
+    height: 280px;
+    padding: 77px 35px;
+    background-image: url(./img/Rectangle\ 23.png);
+    border-radius: 5px;
+}
+
+#last_part .item h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+#last_part .item h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111111;
+    line-height: 34px;
+    margin-bottom: 31px;
+}
+
+#last_part .item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 30px;
+}
+
+#last_part .item_one {
+    height: 280px;
+    padding: 77px 35px;
+    background-image: url(./img/Group\ 67.png);
+    border-radius: 5px;
+}
+
+#last_part .item_one h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+#last_part .item_one h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111111;
+    line-height: 34px;
+    margin-bottom: 31px;
+}
+
+#last_part .item_one p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 30px;
+}
+
+
+/*===========================================
+============Reality Glasses part End============
+=========================================*/
+
+
+/*===========================================
+============Footer part Start============
+=========================================*/
+#foooter {
+    margin-bottom: 200px;
+}
+
+#footer .main {
+    position: relative;
+}
+
+#footer .main .search {
+    width: 500px;
+    height: 55px;
+    position: absolute;
+    left: 135px;
+    top: 335px;
+}
+
+#footer .main button {
+    background-color: #4D77DD;
+    color: #fff;
+
+}
+
+#footer .main .icon_massage {
+    position: absolute;
+    font-size: 20px;
+    left: 480px;
+    top: 340px;
+    color: #119292;
+}
+
+#footer .main .many_icon {
+    position: absolute;
+    font-size: 30px;
+    left: 800px;
+    top: 335px;
+    margin-right: 20px;
+}
+
+#footer .main .many_icon i {
+    margin-left: 10px;
+    color: #fff;
+}
+
+
+#footer .ul_li {
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .ul_li h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+    margin-left: 35px;
+}
+
+#footer .ul_li ul {
+    margin-top: 40px;
+}
+
+#footer .ul_li i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #222222;
+}
+
+#footer .ul_li li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #222222;
+}
+
+#footer .header_one {
+    margin-top: -52px;
+    margin-right: 30px;
+    text-align: start;
+}
+
+#footer img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#footer_last_part .main {
+    width: 100%;
+    height: 50px;
+    background-color: #EBF0F0;
+    padding: 14px 20px;
+}
+
+#footer_last_part op .main p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #252525;
+}
+
+#footer_last_part .main p a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #252525;
+    margin-left: 10px;
+}
+
+/*===========================================
+============Footer part End============
+=========================================*/
